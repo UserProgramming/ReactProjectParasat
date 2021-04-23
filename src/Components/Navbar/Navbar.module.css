@@ -1,0 +1,44 @@
+.Navbar {
+    grid-area: n;
+    padding: 10px;
+}
+
+.item i {
+    color: #ffffff;
+    text-decoration: none;
+    padding-top: 10px;
+    font-size: 32px;
+    padding: 17px;
+    background-color: #0856d3;
+    width: 34px;
+    height: 30px;
+    border-radius: 30%;
+    transition: 1s;
+}
+.item i:hover {
+    border-radius: 5%; 
+}
+
+@media (max-width: 700px) {
+    .Navbar {
+        background: #fff;
+        width: 10%;
+    }
+    .item i{
+        background-color: #fff;
+        font-size: 25px;
+        color:#0856d3 ;
+        padding: 2px;
+        width: 20px;
+        height: 20px;
+
+    }
+    
+
+}
+@media (max-width: 500px) {
+    .Navbar {
+        color: #0462f0;
+        height: 170px;
+    }
+}

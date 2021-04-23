@@ -1,0 +1,18 @@
+.Dialog input {
+    width: 96%;
+    height: 20px;
+    border: solid 2px #2603c0;
+    border-radius: 5px;
+    
+}
+.Dialog h4 {
+    padding: 10px;
+    word-break: break-word;
+    border: solid 2px #04f7ff;
+}
+.text h5 {
+    border: #104ab8 solid 3px;
+    padding: 5px;
+    border-radius: 5px;
+    word-break: break-word;
+}
